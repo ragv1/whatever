@@ -11,3 +11,6 @@ COPY package.json .
 RUN npm install --only=production
 COPY --from=build /app/dist ./dist
 CMD npm run start:prod
+
+options:
+  logging: CLOUD_LOGGING_ONLY
