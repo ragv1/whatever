@@ -5,5 +5,5 @@ export class AppService {
   getHello(): string {
     return 'Bienvenidos a mi mundo';
   }
-  // COMENTARIO INUTILisimo
+  // COMENTARIO INUTILASO
 }
